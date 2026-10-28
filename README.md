@@ -46,4 +46,4 @@ A aplicação simula a organização de preços de
 produtos de um supermercado.
 
 ## Autor
-Seu nome aqui
+Paulo Victor Oliveira Dos Santos
