@@ -2,48 +2,76 @@
 
 # Ordenação de Preços de Supermercado
 
-## Descrição
-Projeto desenvolvido em linguagem C para demonstrar
-a aplicação dos algoritmos Bubble Sort e Quick Sort
-na ordenação de preços de produtos de supermercado.
+## 1. Objetivo da aplicação
 
-## Objetivo
-Organizar os produtos em ordem crescente de preço,
-facilitando a comparação dos valores.
+O objetivo deste projeto é aplicar e comparar os algoritmos de ordenação Bubble Sort e Quick Sort utilizando a linguagem C. A aplicação organiza os preços de produtos de supermercado em ordem crescente, facilitando a visualização e a comparação dos valores.
 
-## Funcionalidades
+## 2. Situação-problema
+
+Em um supermercado, comparar os preços de diferentes produtos pode ser uma tarefa trabalhosa quando os valores estão desorganizados. Para facilitar essa análise, a aplicação utiliza dois algoritmos de ordenação para organizar os preços e apresentar os resultados, permitindo observar como cada método realiza a ordenação.
+
+## 3. Funcionalidades
+
 - Cadastro de 10 produtos predefinidos.
-- Exibição dos dados antes da ordenação.
-- Ordenação pelo algoritmo Bubble Sort.
-- Ordenação pelo algoritmo Quick Sort.
-- Comparação dos resultados dos dois algoritmos.
+- Exibição dos produtos antes da ordenação.
+- Ordenação dos preços utilizando Bubble Sort.
+- Ordenação dos preços utilizando Quick Sort.
+- Comparação dos resultados obtidos pelos dois algoritmos.
 
-## Tecnologias
-- Linguagem C
-- GCC (compilador C)
+## 4. Tecnologias utilizadas
 
-## Como executar
-1. Compile o programa:
-   gcc main.c -o supermercado
+- Linguagem C.
+- Compilador GCC.
+- Git e GitHub para versionamento e armazenamento do código-fonte.
 
-2. Execute o programa:
-   ./supermercado
+## 5. Instruções de execução
 
-No Windows, execute supermercado.exe.
+O código-fonte está disponível no arquivo `Código.c`.
 
-## Algoritmos utilizados
+### Linux
+
+Compile o programa:
+
+```bash
+gcc "Código.c" -o supermercado
+```
+
+Execute:
+
+```bash
+./supermercado
+```
+
+### Windows
+
+Com o GCC instalado, compile:
+
+```bash
+gcc "Código.c" -o supermercado.exe
+```
+
+Execute:
+
+```bash
+supermercado.exe
+```
+
+## 6. Explicação dos algoritmos
 
 ### Bubble Sort
-Compara elementos vizinhos e realiza trocas
-até organizar os preços.
+
+O Bubble Sort percorre a lista comparando elementos vizinhos. Quando dois elementos estão fora da ordem desejada, eles são trocados. Esse processo se repete até que os valores estejam ordenados. Sua complexidade de tempo média e no pior caso é O(n²).
 
 ### Quick Sort
-Utiliza um pivô para dividir os dados em partes
-e ordena essas partes recursivamente.
 
-## Contextualização
-A aplicação simula a organização de preços de
-produtos de um supermercado.
+O Quick Sort utiliza a estratégia de divisão e conquista. Ele escolhe um elemento como pivô, divide os demais elementos em grupos conforme sua relação com o pivô e ordena essas partes recursivamente. Sua complexidade média é O(n log n), embora no pior caso possa ser O(n²).
 
-## Autor
-Paulo Victor Oliveira Dos Santos
+## 7. Execução online
+
+O programa também pode ser consultado no compilador online:
+
+https://onlinegdb.com/Pz8qhMEaM
+
+## 8. Autor
+
+Paulo Victor Oliveira dos Santos
